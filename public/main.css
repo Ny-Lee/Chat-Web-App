@@ -1,0 +1,56 @@
+@import url("../node_modules/materialize-css/dist/css/materialize.css");
+
+.purchased{
+    text-decoration: line-through;
+}
+
+h3 {
+    text-align: center;
+}
+
+button {
+    background-color: #f1f1f1;
+    border: none;
+    font-size: 25;
+    font-weight: bolder;
+}
+
+.dialogue {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container {
+    border: 3em solid black;
+    border-radius: 15px;
+}
+
+.bubble {
+    font-size: 25px;
+    position: relative;
+    background-color: #00aabb;
+    border-radius: .4em;
+}
+
+.bubble:after {
+    content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: #00aabb;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-left: -20px;
+}
+
+.small {
+    font-size: 15px;
+    margin-top: 15px;
+    text-align: end;
+}

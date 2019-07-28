@@ -1,0 +1,23 @@
+{
+  "name": "feb22todo",
+  "version": "1.0.0",
+  "description": "A todo list in plain html5 and es6",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "parcel public/index.html --no-hmr --port $PORT",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "browser"
+  ],
+  "author": "Rich Hildred",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "firebase": "^5.11.1",
+    "materialize-css": "^1.0.0"
+  }
+}
